@@ -16,7 +16,7 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 ## Metodologia
 
 ## Fluxograma 
-<img src="imagens/FLuxograma01.jpeg" width="1200"/>
+<img src="imagens/iFluxograma.jpeg" width="450"/>
 
 ## Estudo sobre Aspectos de Inteligência
   
@@ -34,24 +34,22 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 
 * Eficiência energética: o sistema só aciona dispositivos como o aquecedor quando necessário, otimizando o uso de energia e aumentando a vida útil dos componentes.
 
- ## Diagrama de Blocos do Sistema
- <img src="imagens/DiagramaBlocos01.jpeg" width="500"/>
 
- 
  ## Sensores
   
-  - Sensor de chuva YL-83: Detecta presença de água.
-    <img src="imagens/" width="450"/>
+  - Sensor de chuva YL-83: Detecta presença de água. Principal sensor, com base nele o toldo vai abrir ou fechar. 
+ <img src="imagens/modulo_sensor_de_chuva.jpg" width="450"/>
     
-  - Acelerômetro (MPU-6050): Detecta quedas ou inclinações.
-    <img src="imagens/acelerometro.jpg" width="400"/>
+  - Acelerômetro (MPU-6050): Detecta quando há quedas ou inclinações. Quando o varal se move, inclina ou cai, as medidas dos eixos mudam rapidamente e assim é avisado que algo ocorreu.
+<img src="imagens/acelerometro.jpg" width="400"/>
   
     
 ## Atuadores
     
 - Motor de passo 28BYJ-48 : Vai ter a função de abrir e fechar o toldo.
-<img src="imagens/motor_passo" width="450"/>
-- Aquecedor PTC 12V: Ativado após o fechamento para ajudar na secagem.
+  <img src="imagens/motor_passo.jpg" width="450"/>
+- Aquecedor PTC 12V: Aquecedor vai ser ativado após o fechamento do toldo para que continue secando as roupas. Gera calor logo após ser ligado na alimentação, podendo chegar até 200°C.
+<img src="imagens/aquecedor_ptc.jpg" width="450"/>
   
 ## Estrutura Mecânica
   
@@ -71,9 +69,9 @@ Mais leve e fácil de implementar, mas exige tensionamento.
 
 * Tecido da cortina:
 Tecido blackout (resistente à água e ao sol, mas cuidado com calor).
-Lona náutica (mais durável e resistente à umidade e vento).
-
-Tecido Oxford com impermeabilização (leve e razoavelmente resistente).
+Lona acrílica (mais durável e resistente à umidade e vento), utilizada nas secadoras já existentes.
   
 ## Definição do Processador
-O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, suporte a ADC e I2C, capacidade de processamento adequada e consumo energético eficiente.
+O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, suporte a ADC e I2C, capacidade de processamento adequada e consumo energético eficiente. Conseguindo assim atingir todos os pré requisitos estabelecidos no projeto.
+
+<img src="imagens/esp32.jpg" width="450"/>
