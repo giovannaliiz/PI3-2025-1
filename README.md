@@ -16,7 +16,7 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 ## Metodologia
 
 ## Fluxograma 
-<img src="imagens/FLuxograma01.jpeg" width="1200"/>
+<img src="imagens/FLuxograma01.jpeg" width="900"/>
 
 ## Estudo sobre Aspectos de Inteligência
   
@@ -35,45 +35,29 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 * Eficiência energética: o sistema só aciona dispositivos como o aquecedor quando necessário, otimizando o uso de energia e aumentando a vida útil dos componentes.
 
  ## Diagrama de Blocos
- <img src="imagens/DiagramaBlocos01.jpeg" width="800"/>
+ <img src="imagens/DiagramaBlocos01.jpeg" width="700"/>
 
  ## Sensores
   
   - Sensor de chuva YL-83: Detecta presença de água. Principal sensor, com base nele o toldo vai abrir ou fechar. 
- <img src="imagens/modulo_sensor_de_chuva.jpg" width="450"/>
+ <img src="imagens/modulo_sensor_de_chuva.jpg" width="250"/>
     
   - Acelerômetro (MPU-6050): Detecta quando há quedas ou inclinações. Quando o varal se move, inclina ou cai, as medidas dos eixos mudam rapidamente e assim é avisado que algo ocorreu.
-<img src="imagens/acelerometro.jpg" width="400"/>
+<img src="imagens/acelerometro.jpg" width="250"/>
+
   
-    
 ## Atuadores
     
 - Motor de passo 28BYJ-48 : Vai ter a função de abrir e fechar o toldo.
-  <img src="imagens/motor_passo.jpg" width="450"/>
+  <img src="imagens/motor_passo.jpg" width="250"/>
 - Aquecedor PTC 12V: Aquecedor vai ser ativado após o fechamento do toldo para que continue secando as roupas. Gera calor logo após ser ligado na alimentação, podendo chegar até 200°C.
-<img src="imagens/aquecedor_ptc.jpg" width="450"/>
+<img src="imagens/aquecedor_ptc.jpg" width="250"/>
   
 ## Estrutura Mecânica
   
 A estrutura consiste em um toldo retrátil, acionado por motor de passo com braços articulados ou trilhos. O varal é fixado de forma estável e sensores são posicionados para proteção contra água e detecção de anomalias.
 
-  * Pra subir/descer:
-Sistema de haste com parafuso sem fim (trapezoidal ou rosca normal):
-O motor gira e empurra/recolhe uma haste que abre ou fecha a tenda.
-Ideal pra controle preciso com motor de passo.
-
-
-Sistema de polias e cabos (tipo persiana):
-Motor gira um carretel que enrola/desenrola cabo de aço, puxando os braços do toldo.
-Mais leve e fácil de implementar, mas exige tensionamento.
-
-
-
-* Tecido da cortina:
-Tecido blackout (resistente à água e ao sol, mas cuidado com calor).
-Lona acrílica (mais durável e resistente à umidade e vento), utilizada nas secadoras já existentes.
-  
 ## Definição do Processador
 O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, suporte a ADC e I2C, capacidade de processamento adequada e consumo energético eficiente. Conseguindo assim atingir todos os pré requisitos estabelecidos no projeto.
 
-<img src="imagens/esp32.jpg" width="450"/>
+<img src="imagens/esp32.jpg" width="250"/>
