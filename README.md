@@ -34,7 +34,10 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 
 * Eficiência energética: o sistema só aciona dispositivos como o aquecedor quando necessário, otimizando o uso de energia e aumentando a vida útil dos componentes.
 
+ ## Diagrama de Blocos do Sistema
+ <img src="imagens/DiagramaBlocos01.jpeg" width="500"/>
 
+ 
  ## Sensores
   
   - Sensor de chuva YL-83: Detecta presença de água.
