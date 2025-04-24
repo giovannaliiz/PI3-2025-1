@@ -16,7 +16,7 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 ## Metodologia
 
 ## Fluxograma 
-<img src="imagens/iFluxograma.jpeg" width="450"/>
+<img src="imagens/FLuxograma01.jpeg" width="1200"/>
 
 ## Estudo sobre Aspectos de Inteligência
   
@@ -34,6 +34,8 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 
 * Eficiência energética: o sistema só aciona dispositivos como o aquecedor quando necessário, otimizando o uso de energia e aumentando a vida útil dos componentes.
 
+ ## Diagrama de Blocos
+ <img src="imagens/DiagramaBlocos01.jpeg" width="800"/>
 
  ## Sensores
   
