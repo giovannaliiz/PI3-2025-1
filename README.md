@@ -16,7 +16,7 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 ## Metodologia
 
 ## Fluxograma 
-<img src="imagens/iFluxograma" width="450"/>
+<img src="imagens/FLuxograma01.jpeg" width="1200"/>
 
 ## Estudo sobre Aspectos de Inteligência
   
