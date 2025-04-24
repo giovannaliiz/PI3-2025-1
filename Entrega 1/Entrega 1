@@ -19,7 +19,7 @@
   
   - Sensor de chuva (YL-83 ou FC-37): Detecta presença de água.
   - Acelerômetro (MPU-6050): Detecta quedas ou inclinações.
-  - Sensor de tensão da bateria: Usa divisor resistivo e ADC do ESP32.
+  
     
 ## Atuadores
     
