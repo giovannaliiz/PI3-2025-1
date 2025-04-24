@@ -16,7 +16,9 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 ## Metodologia
 
 ## Fluxograma 
-<img src="imagens/FLuxograma01.jpeg" width="900"/>
+<p align="center">
+  <img src="imagens/FLuxograma01.jpeg" width="900"/>
+</p>
 
 ## Estudo sobre Aspectos de Inteligência
   
@@ -35,23 +37,37 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
 * Eficiência energética: o sistema só aciona dispositivos como o aquecedor quando necessário, otimizando o uso de energia e aumentando a vida útil dos componentes.
 
  ## Diagrama de Blocos
- <img src="imagens/DiagramaBlocos01.jpeg" width="700"/>
+<p align="center">
+  <img src="imagens/DiagramaBlocos01.jpeg" width="700"/>
+</p>
 
  ## Sensores
   
   - Sensor de chuva YL-83: Detecta presença de água. Principal sensor, com base nele o toldo vai abrir ou fechar. 
- <img src="imagens/modulo_sensor_de_chuva.jpg" width="250"/>
+ <p align="center">
+  <img src="imagens/modulo_sensor_de_chuva.jpg" width="250"/>
+</p>
+
     
   - Acelerômetro (MPU-6050): Detecta quando há quedas ou inclinações. Quando o varal se move, inclina ou cai, as medidas dos eixos mudam rapidamente e assim é avisado que algo ocorreu.
-<img src="imagens/acelerometro.jpg" width="250"/>
+<p align="center">
+  <img src="imagens/acelerometro.jpg" width="250"/>
+</p>
+
 
   
 ## Atuadores
     
 - Motor de passo 28BYJ-48 : Vai ter a função de abrir e fechar o toldo.
+ <p align="center">
   <img src="imagens/motor_passo.jpg" width="250"/>
+</p>
+
 - Aquecedor PTC 12V: Aquecedor vai ser ativado após o fechamento do toldo para que continue secando as roupas. Gera calor logo após ser ligado na alimentação, podendo chegar até 200°C.
-<img src="imagens/aquecedor_ptc.jpg" width="250"/>
+<p align="center">
+  <img src="imagens/aquecedor_ptc.jpg" width="250"/>
+</p>
+
   
 ## Estrutura Mecânica
   
@@ -60,4 +76,7 @@ A estrutura consiste em um toldo retrátil, acionado por motor de passo com bra�
 ## Definição do Processador
 O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, suporte a ADC e I2C, capacidade de processamento adequada e consumo energético eficiente. Conseguindo assim atingir todos os pré requisitos estabelecidos no projeto.
 
-<img src="imagens/esp32.jpg" width="250"/>
+<p align="center">
+  <img src="imagens/esp32.jpg" width="250"/>
+</p>
+
