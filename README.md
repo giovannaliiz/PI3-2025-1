@@ -87,4 +87,8 @@ O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, supor
   <img src="imagens/Fluxograma_2.jpg" width="550"/>
 </p>
 
+## Testes iniciais dos sensores
 
+## Programação inicial e verificação com integração com os sensores
+
+## Definição da interface com o usuário
