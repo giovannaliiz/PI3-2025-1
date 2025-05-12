@@ -104,5 +104,6 @@ Foi desenvolvido um protótipo da interface de comunicação com o usuário util
 ### Blink Mobile Dashboard
 
 <p align="center">
-  <img src="imagens/BlinkMob.png" width="550"/>
+  <img src="imagens/BlynkMobile.jpg" width="550"/>
 </p>
+
