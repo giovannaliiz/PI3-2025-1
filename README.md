@@ -80,3 +80,11 @@ O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, supor
   <img src="imagens/esp32.jpg" width="250"/>
 </p>
 
+
+## Fluxograma do comportamento do sistema
+
+<p align="center">
+  <img src="imagens/Fluxograma_2.png" width="250"/>
+</p>
+
+
