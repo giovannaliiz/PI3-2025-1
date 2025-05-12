@@ -92,3 +92,17 @@ O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, supor
 ## Programação inicial e verificação com integração com os sensores
 
 ## Definição da interface com o usuário
+
+Foi desenvolvido um protótipo da interface de comunicação com o usuário utilizando a plataforma Blynk. O Blynk é uma ferramenta que permite a criação de dashboards personalizáveis para monitoramento e interação com dispositivos inteligentes. Para este protótipo, foram configurados painéis tanto para acesso móvel, com o aplicativo disponível na App Store e Play Store, quanto para acesso via navegador, através do Blynk Web Dashboard, facilitando a visualização das informações do sistema em diferentes dispositivos.
+
+### Blynk Web Dashboard
+
+<p align="center">
+  <img src="imagens/BlynkWeb.png" width="550"/>
+</p>
+
+### Blink Mobile Dashboard
+
+<p align="center">
+  <img src="imagens/BlinkMob.png" width="550"/>
+</p>
