@@ -116,6 +116,13 @@ Após a validação individual de cada sensor, iniciou-se a fase de programaçã
 </p>
 
  A partir das leituras dos sensores, mensagens de alerta são exibidas no monitor serial indicando a presença de chuva ou alterações nos ângulos de inclinação que sugerem instabilidade do varal. 
+
+Com os sensores de chuva e de inclinação já integrados e funcionando conforme o esperado. Esse módulo opera com um divisor resistivo interno, permitindo a leitura de tensões mais altas por meio da entrada analógica do ESP32. A adição deste sensor tem como finalidade monitorar a alimentação do sistema, identificando quedas de tensão ou falhas de fornecimento que possam comprometer o funcionamento do varal. Como mostra a figura a seguir:
+
+<p align="center">
+  <img src="imagens/integracao_teste.jpeg" width="600"/>
+</p>
+
  
 <p align="center">
   <img src="imagens/Imagem_serial.jpeg" width="600"/>
