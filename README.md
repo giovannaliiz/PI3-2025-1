@@ -92,9 +92,11 @@ O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, supor
 Foram realizados testes individuais de cada sensor para verificar seu funcionamento. O módulo de tensão, o acelerômetro e o sensor de chuva foram avaliados separadamente, sendo que o módulo de tensão e o acelerômetro apresentaram seus resultados por meio do monitor serial.
 
 Teste inicial do Módulo de Tensão:
+
 https://github.com/user-attachments/assets/caf5dee4-0d81-4bf4-951d-e001909aa0ae
 
 Teste inicial do Acelerômetro:
+
 https://github.com/user-attachments/assets/a39f9e20-5d1d-4470-aab8-4f512680a43d
 
 Teste inicial do Sensor de Chuva:
