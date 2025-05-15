@@ -123,12 +123,14 @@ Com os sensores de chuva e de inclinação já integrados e funcionando conforme
   <img src="imagens/integracao_teste.jpeg" width="600"/>
 </p>
 
+
+
  
 <p align="center">
   <img src="imagens/Imagem_serial.jpeg" width="600"/>
 </p>
 
- Com os sensores de chuva e de inclinação já integrados e funcionando conforme o esperado. Esse módulo opera com um divisor resistivo interno, permitindo a leitura de tensões mais altas por meio da entrada analógica do ESP32. A adição deste sensor tem como finalidade monitorar a alimentação do sistema, identificando quedas de tensão ou falhas de fornecimento que possam comprometer o funcionamento do varal. 
+
 
 ## Definição da interface com o usuário
 
