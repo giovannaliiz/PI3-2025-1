@@ -93,7 +93,7 @@ Foram realizados testes individuais de cada sensor para verificar seu funcioname
 
 Teste inicial do Módulo de Tensão:
 
-https://github.com/user-attachments/assets/caf5dee4-0d81-4bf4-951d-e001909aa0ae
+https://github.com/user-attachments/assets/a1b5b0d0-355b-4a44-a402-4f0e2d8aa150
 
 Teste inicial do Acelerômetro:
 
@@ -101,6 +101,7 @@ https://github.com/user-attachments/assets/a39f9e20-5d1d-4470-aab8-4f512680a43d
 
 Teste inicial do Sensor de Chuva:
 
+https://github.com/user-attachments/assets/b8497144-41e5-45c0-88ff-a969a148b5c5
 
 ## Programação inicial e verificação com integração com os sensores
 
