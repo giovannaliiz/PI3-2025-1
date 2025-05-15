@@ -89,6 +89,8 @@ O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, supor
 
 ## Testes iniciais dos sensores
 
+https://github.com/user-attachments/assets/caf5dee4-0d81-4bf4-951d-e001909aa0ae
+
 ## Programação inicial e verificação com integração com os sensores
 
 ## Definição da interface com o usuário
