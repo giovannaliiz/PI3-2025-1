@@ -58,12 +58,18 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
   
 ## Atuadores
     
-- Motor de passo 28BYJ-48 : Vai ter a função de abrir e fechar o toldo.
+- Motor 5.9V : Vai ter a função de abrir e fechar o toldo.
  <p align="center">
-  <img src="imagens/motor_passo.jpg" width="250"/>
+  <img src="imagens/motor.jpg" width="250"/>
 </p>
-
-- Aquecedor PTC 12V: Aquecedor vai ser ativado após o fechamento do toldo para que continue secando as roupas. Gera calor logo após ser ligado na alimentação, podendo chegar até 200°C.
+- Relés de 5V e 12V : Vão ser utilizados com o objetivo de fazer o esp controlar os motores e o aquecedor ptc.
+ <p align="center">
+  <img src="imagens/relé_5V.png" width="250"/>
+</p>
+ <p align="center">
+  <img src="imagens/relé_12V.png" width="250"/>
+</p>
+- Aquecedor PTC 12V: Aquecedor vai ser ativado após o fechamento do toldo para que continue secando as roupas. Gera calor logo após ser ligado na alimentação, podendo chegar até 200°C porém muito lentamente.
 <p align="center">
   <img src="imagens/aquecedor_ptc.jpg" width="250"/>
 </p>
@@ -150,4 +156,35 @@ Foi desenvolvido um protótipo da interface de comunicação com o usuário util
 <p align="center">
   <img src="imagens/BlynkMob.png" width="250"/>
 </p>
+
+## Integração os componentes em um protótipo em bancada
+
+## Testes preliminares dos sensores e atuadores
+Foram realizados testes isoladamente de cada motor, do aquecedor sozinho e depois o mesmo com a ventoinha. 
+
+Teste motor 1:
+
+https://github.com/user-attachments/assets/6216d324-cf8a-46f8-abe0-dfbe666b14d1
+
+Teste motor 2:
+
+https://github.com/user-attachments/assets/f46bb684-a913-4610-92dc-a691eb5c6a05
+
+Teste aquecedor:
+
+https://github.com/user-attachments/assets/68b211ce-d922-4965-9e78-f4a5babca9d5
+
+Teste aquecedor e ventoinha:
+
+https://github.com/user-attachments/assets/a80e9e50-3602-43b4-a0d8-00919ef7b718
+
+
+
+## Implementação preliminar da interface do usuário
+
+## Design 3D da estrutura mecânica
+
+## Design 3D os cases das placas
+
+
 
