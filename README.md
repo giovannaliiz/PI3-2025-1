@@ -183,7 +183,13 @@ Teste da bancada completa: Neste teste todos os sensores e atuadores serão liga
 
 https://github.com/user-attachments/assets/e433fd9b-2932-4dfc-9582-c2d3f96f4e4c
 
+[demonstração do teste bancada completa - Monitor Serial](./Monitor_Motores_PTC.mp4)
+
 ## Implementação preliminar da interface do usuário
+
+Após a criação dos layouts no aplicativo Blynk, iniciamos a comunicação do microcontrolador com o app. O ESP32 conecta-se à internet via Wi-Fi e utiliza um token de autenticação exclusivo (BLYNK_AUTH_TOKEN) para se comunicar com o projeto no Blynk. Em operação contínua, ele lê os sensores de chuva e o acelerômetro, enviando os dados em tempo real para a nuvem, que atualiza a interface do usuário de forma imediata e intuitiva.
+
+[demonstração do Blynk](./VideoBlynk.mp4)
 
 
 ## Design 3D os cases das placas
