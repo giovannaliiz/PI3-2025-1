@@ -172,7 +172,7 @@ https://github.com/user-attachments/assets/f46bb684-a913-4610-92dc-a691eb5c6a05
 
 Teste aquecedor:
 
-https://github.com/user-attachments/assets/68b211ce-d922-4965-9e78-f4a5babca9d5
+https://github.com/user-attachments/assets/ad0795f3-a723-4de0-9a04-a8e7355d2980
 
 Teste aquecedor e ventoinha:
 
