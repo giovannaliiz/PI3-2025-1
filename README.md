@@ -62,12 +62,9 @@ Estender roupas em áreas externas é uma prática comum, porém altamente vulne
  <p align="center">
   <img src="imagens/motor.jpg" width="250"/>
 </p>
-- Relés de 5V e 12V : Vão ser utilizados com o objetivo de fazer o esp controlar os motores e o aquecedor ptc.
+- Módulo relé 4 canais : Vai ser utilizados com o objetivo de fazer o esp controlar os motores e o aquecedor ptc.
  <p align="center">
-  <img src="imagens/relé_5V.png" width="250"/>
-</p>
- <p align="center">
-  <img src="imagens/relé_12V.png" width="250"/>
+  <img src="imagens/modulo_rele.jpeg" width="250"/>
 </p>
 - Aquecedor PTC 12V: Aquecedor vai ser ativado após o fechamento do toldo para que continue secando as roupas. Gera calor logo após ser ligado na alimentação, podendo chegar até 200°C porém muito lentamente.
 <p align="center">
@@ -157,30 +154,37 @@ Foi desenvolvido um protótipo da interface de comunicação com o usuário util
   <img src="imagens/BlynkMob.png" width="250"/>
 </p>
 
-## Integração os componentes em um protótipo em bancada
-
 ## Testes preliminares dos sensores e atuadores
 Foram realizados testes isoladamente de cada motor, do aquecedor sozinho e depois o mesmo com a ventoinha. 
 
-Teste motor 1:
+Teste motor 1: Teste realizados apenas com esp32, relé e o motor.
 
 https://github.com/user-attachments/assets/6216d324-cf8a-46f8-abe0-dfbe666b14d1
 
-Teste motor 2:
+Teste motor 2: Teste realizados apenas com esp32, relé e o motor.
 
 https://github.com/user-attachments/assets/f46bb684-a913-4610-92dc-a691eb5c6a05
 
-Teste aquecedor:
+Teste aquecedor: Teste realizados apenas com esp32, relé e o aquecedor.
 
 https://github.com/user-attachments/assets/ad0795f3-a723-4de0-9a04-a8e7355d2980
 
-Teste aquecedor e ventoinha:
+Teste aquecedor e ventoinha: Teste realizados apenas com esp32, relé, aquecedor e ventoinha fazendo ligar ambos ao mesmo tempo.
 
 https://github.com/user-attachments/assets/a80e9e50-3602-43b4-a0d8-00919ef7b718
 
+## Integração os componentes em um protótipo em bancada
 
+Teste dos motores e sensores em conjunto: Neste teste ligamos os motores no módulo relé e no esp32, nele podemos observar se a lógica de ativação está correta. Foi realizado da seguinte maneira: Quando detectado chuva o motor 1 liga por 10s, após os 10s ambos os motores ficam desligados e o motor 2 somente liga quando detectar que parou a chuva e este também fica ligado por 10s.
+
+https://github.com/user-attachments/assets/bebdd496-b92b-49b1-9776-2e549a879597
+
+Teste da bancada completa: Neste teste todos os sensores e atuadores serão ligados, o sensor de tensão e o acelerômetro ficam constantemente ativos e mandando mensagem para o esp32, o sensor de chuva também fica monitorando o tempo todo porém, quando este detecta chuva o motor 1 é ligado por 10s, somente quando o motor 1 termina seu ciclo é que são ligadas a ventoinha e o aquecedor que permanecem ligados. Assim que é detectado que parou de chover o motor 2 é acionado também por 10s e quando completado este ciclo a ventoinha e o aquecedor juntamente a ele irão desligar.
+
+https://github.com/user-attachments/assets/e433fd9b-2932-4dfc-9582-c2d3f96f4e4c
 
 ## Implementação preliminar da interface do usuário
+
 
 ## Design 3D os cases das placas
 <p align="center">
