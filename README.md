@@ -179,17 +179,24 @@ Teste dos motores e sensores em conjunto: Neste teste ligamos os motores no mód
 
 https://github.com/user-attachments/assets/bebdd496-b92b-49b1-9776-2e549a879597
 
+
+https://github.com/user-attachments/assets/07dfc5e6-c991-4457-a178-5d9e7fed472f
+
+
+
 Teste da bancada completa: Neste teste todos os sensores e atuadores serão ligados, o sensor de tensão e o acelerômetro ficam constantemente ativos e mandando mensagem para o esp32, o sensor de chuva também fica monitorando o tempo todo porém, quando este detecta chuva o motor 1 é ligado por 10s, somente quando o motor 1 termina seu ciclo é que são ligadas a ventoinha e o aquecedor que permanecem ligados. Assim que é detectado que parou de chover o motor 2 é acionado também por 10s e quando completado este ciclo a ventoinha e o aquecedor juntamente a ele irão desligar.
 
 https://github.com/user-attachments/assets/e433fd9b-2932-4dfc-9582-c2d3f96f4e4c
 
-[demonstração do teste bancada completa - Monitor Serial](./Monitor_Motores_PTC.mp4)
+
+https://github.com/user-attachments/assets/5bff236a-8ab8-48cc-bad9-5d469a3b472d
+
 
 ## Implementação preliminar da interface do usuário
 
 Após a criação dos layouts no aplicativo Blynk, iniciamos a comunicação do microcontrolador com o app. O ESP32 conecta-se à internet via Wi-Fi e utiliza um token de autenticação exclusivo (BLYNK_AUTH_TOKEN) para se comunicar com o projeto no Blynk. Em operação contínua, ele lê os sensores de chuva e o acelerômetro, enviando os dados em tempo real para a nuvem, que atualiza a interface do usuário de forma imediata e intuitiva.
 
-[demonstração do Blynk]([./VideoBlynk.mp4](https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/VideoBlynk.mp4))
+https://github.com/user-attachments/assets/773221c3-16fb-4270-a398-a2c1a77053a4
 
 
 ## Design 3D os cases das placas
