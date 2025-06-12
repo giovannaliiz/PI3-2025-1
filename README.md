@@ -212,9 +212,6 @@ https://github.com/user-attachments/assets/773221c3-16fb-4270-a398-a2c1a77053a4
 </p>
 
 
-<p align="center">
-  <img src="imagens/varal_prototipo1.jpeg" width="400"/>
-</p>
 
 
 
