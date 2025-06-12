@@ -182,9 +182,19 @@ https://github.com/user-attachments/assets/a80e9e50-3602-43b4-a0d8-00919ef7b718
 
 ## Implementação preliminar da interface do usuário
 
+## Design 3D os cases das placas
+<p align="center">
+  <img src="imagens/case3D.jpeg" width="600"/>
+</p>
+
+
 ## Design 3D da estrutura mecânica
 
-## Design 3D os cases das placas
+<p align="center">
+  <img src="imagens/varal_prototipo1.jpeg" width="600"/>
+</p>
+
+
 
 
 
