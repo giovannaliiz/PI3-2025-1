@@ -201,6 +201,11 @@ Após a criação dos layouts no aplicativo Blynk, iniciamos a comunicação do 
 ## Design 3D da estrutura mecânica
 
 <p align="center">
+  <img src="imagens/varal3D.jpeg" width="400"/>
+</p>
+
+
+<p align="center">
   <img src="imagens/varal_prototipo1.jpeg" width="400"/>
 </p>
 
