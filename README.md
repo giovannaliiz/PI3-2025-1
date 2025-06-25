@@ -201,7 +201,11 @@ https://github.com/user-attachments/assets/773221c3-16fb-4270-a398-a2c1a77053a4
 
 ## Design 3D os cases das placas
 <p align="center">
-  <img src="imagens/case3D.jpeg" width="400"/>
+  <img src="imagens/casefrente.jpeg" width="400"/>
+</p>
+
+<p align="center">
+  <img src="imagens/caseinferior.jpeg" width="400"/>
 </p>
 
 
