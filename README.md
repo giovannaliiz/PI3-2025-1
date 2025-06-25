@@ -208,6 +208,11 @@ https://github.com/user-attachments/assets/773221c3-16fb-4270-a398-a2c1a77053a4
   <img src="imagens/caseinferior.jpeg" width="400"/>
 </p>
 
+<p align="center">
+  <img src="imagens/casesolida.jpeg" width="400"/>
+</p>
+
+A case do varal foi modelada no Tinkercad. Ela tem três furos verticais em cada lateral, totalizando seis furos para a passagem dos fios e cabos necessários. Também foram incluídos os encaixes para os parafusos que fixam a tampa. Por fim, foi adicionada uma imagem da case real que será usada no nosso projeto.
 
 ## Design 3D da estrutura mecânica
 
