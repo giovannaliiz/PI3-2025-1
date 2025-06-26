@@ -199,7 +199,7 @@ Após a criação dos layouts no aplicativo Blynk, iniciamos a comunicação do 
 https://github.com/user-attachments/assets/773221c3-16fb-4270-a398-a2c1a77053a4
 
 
-## Design 3D os cases das placas
+## Design 3D Case
 <p align="center">
   <img src="imagens/casefrente.jpeg" width="400"/>
 </p>
@@ -217,16 +217,21 @@ A case do varal foi modelada no Tinkercad. Ela tem três furos verticais em cada
 ## Design 3D da estrutura mecânica
 
 <p align="center">
-  <img src="imagens/varal3D.jpeg" width="400"/>
+  <img src="imagens/varal_lateral.jpeg" width="400"/>
 </p>
 
 
 <p align="center">
-  <img src="imagens/cortina.jpeg" width="400"/>
+  <img src="imagens/varal_traseira.jpeg" width="400"/>
 </p>
 
 
+<p align="center">
+  <img src="imagens/varal_traseira.jpeg" width="400"/>
+</p>
 
+O design 3D do varal foi desenvolvido no Tinkercad. Ele conta com uma base fixa que sustenta uma haste vertical, onde o varal está montado. Na imagem, a cortina aparece na posição fechada.
+Na parte traseira da haste estão fixados o motor 1 e o motor 2, responsáveis por abrir e fechar a cortina lateralmente quando acionados. A case do sistema está parafusada na parte de trás da haste, e sobre ela foi adicionado um triângulo de apoio, levemente inclinado, que serve como suporte para o sensor de chuva.
 
 
 
