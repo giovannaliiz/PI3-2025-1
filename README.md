@@ -225,13 +225,12 @@ A case do varal foi modelada no Tinkercad. Ela tem três furos verticais em cada
   <img src="imagens/varal_traseira.jpeg" width="400"/>
 </p>
 
-
-<p align="center">
-  <img src="imagens/varal_traseira.jpeg" width="400"/>
-</p>
-
 O design 3D do varal foi desenvolvido no Tinkercad. Ele conta com uma base fixa que sustenta uma haste vertical, onde o varal está montado. Na imagem, a cortina aparece na posição fechada.
 Na parte traseira da haste estão fixados o motor 1 e o motor 2, responsáveis por abrir e fechar a cortina lateralmente quando acionados. A case do sistema está parafusada na parte de trás da haste, e sobre ela foi adicionado um triângulo de apoio, levemente inclinado, que serve como suporte para o sensor de chuva.
 
+<p align="center">
+  <img src="imagens/varal_prototipo1.jpeg" width="400"/>
+</p>
 
+Por fim, temos um protótipo da estrutura mecânica que está na fase inicial de montagem.
 
