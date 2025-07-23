@@ -1,14 +1,14 @@
 #  Entrega 1 – Primeiras Etapas do Projeto
 
----
+--------
 
 ##  Fluxograma
 
 <p align="center">
-  <img src="imagens/Fluxograma 1 PI.png" width="900"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Fluxograma%201%20PI.png?raw=true" width="900"/>
 </p>
 
----
+---------
 
 ##  Estudo sobre Aspectos de Inteligência
 
@@ -18,15 +18,16 @@
 - **Conectividade e interação remota**: o uso do módulo Wi-Fi permite controle via aplicativo, monitoramento em tempo real e possível integração com assistentes virtuais ou outros dispositivos IoT no futuro.
 - **Eficiência energética**: o sistema só aciona dispositivos como o aquecedor quando necessário, otimizando o uso de energia e aumentando a vida útil dos componentes.
 
----
+-------
 
 ##  Diagrama de Blocos
 
 <p align="center">
-  <img src="imagens/DiagramaBlocos01.jpeg" width="700"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/DiagramaBlocos01.jpeg?raw=true" width="700"/>
 </p>
 
----
+
+-------
 
 ##  Sensores
 
@@ -34,15 +35,17 @@
 Detecta presença de água. Principal sensor: com base nele, o toldo vai abrir ou fechar.
 
 <p align="center">
-  <img src="imagens/modulo_sensor_de_chuva.jpg" width="250"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/modulo_sensor_de_chuva.jpg?raw=true" width="250"/>
 </p>
+
 
 ### Acelerômetro MPU-6050
 Detecta quando há quedas ou inclinações. Quando o varal se move, inclina ou cai, as medidas dos eixos mudam rapidamente e o sistema é avisado de que algo ocorreu.
 
 <p align="center">
-  <img src="imagens/acelerometro.jpg" width="250"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/acelerometro.jpg?raw=true" width="250"/>
 </p>
+
 
 ---
 
@@ -52,22 +55,25 @@ Detecta quando há quedas ou inclinações. Quando o varal se move, inclina ou c
 Será utilizado para abrir e fechar o toldo retrátil.
 
 <p align="center">
-  <img src="imagens/motor.jpg" width="250"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/motor.jpg?raw=true" width="250"/>
 </p>
+
 
 ### Módulo relé 4 canais
 Permite o controle dos motores e do aquecedor pelo ESP32.
 
 <p align="center">
-  <img src="imagens/modulo_rele.jpeg" width="250"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/modulo_rele.jpeg?raw=true" width="250"/>
 </p>
+
 
 ### Aquecedor PTC 12V
 Ativado após o fechamento do toldo para continuar secando as roupas. Gera calor logo após ser alimentado, podendo chegar até 200 °C de forma gradual.
 
 <p align="center">
-  <img src="imagens/aquecedor_ptc.jpg" width="250"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/aquecedor_ptc.jpg?raw=true" width="250"/>
 </p>
+
 
 ---
 
@@ -82,5 +88,6 @@ A estrutura consiste em um toldo retrátil, acionado por motor de passo com bra�
 O ESP32 foi escolhido por ter Wi-Fi integrado, múltiplas interfaces GPIO, suporte a ADC e I2C, boa capacidade de processamento e baixo consumo energético, atendendo a todos os pré-requisitos do projeto.
 
 <p align="center">
-  <img src="imagens/esp32.jpg" width="250"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/esp32.jpg?raw=true" width="250"/>
 </p>
+
