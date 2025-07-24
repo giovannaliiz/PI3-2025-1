@@ -40,7 +40,7 @@ Foram utilizadas duas cases no projeto, ambas fixadas na estrutura do protótipo
   <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/case_final_3.jpeg" width="500"/>
 </p>
 
-Para a realização da placa de circuito impresso foi utilizado o Kicad e o almoxarifado do IFSC. De acordo com as figuras abaixo, podemos ver a integração entre um microcontrolador ESP32 e sensores de chuva e acelerômetro, com capacidade de atuação via relé. Ele utiliza fontes separadas de tensões difentes. O layout da PCB foi cuidadosamente planejado para garantir uma montagem prática e funcional.
+Para a realização da placa de circuito impresso, foram utilizados o KiCad para o desenvolvimento e o almoxarifado do IFSC para a produção. O esquemático foi cuidadosamente projetado para integrar um microcontrolador ESP32 com sensores de chuva e acelerômetro, com capacidade de atuação via relé. Ele utiliza fontes separadas de tensões diferentes, sendo o módulo MB102 incorporado para converter a tensão de entrada, fornecendo 3.3V para o ESP e os sensores, e 5V para os módulos dos relés. Adicionalmente, o esquemático incluiu uma entrada dedicada para a bateria que alimenta o motor do aquecedor. O layout da PCB foi cuidadosamente planejado para garantir uma montagem prática e funcional
 
 <p align="center">
   <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/esquematico.png" width="500"/>
