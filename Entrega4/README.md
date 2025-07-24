@@ -2,6 +2,10 @@
 
 ## Estrutura mecânica completa
 
+O varal foi desenvolvido a partir do reaproveitamento de estruturas já existentes, resultando em uma base estável e funcional. A haste principal, de formato cilíndrico, foi montada com canos, e na parte superior utilizamos um arco que serve como trilho para o movimento do toldo. O sistema é acionado por quatro motores, sendo dois responsáveis pela abertura e dois pelo fechamento. No centro, foram posicionados estrategicamente o aquecedor PTC e a ventoinha, alinhados acima da haste destinada a pendurar as roupas.
+
+A abertura e o fechamento do varal são controlados pelo ESP32, seguindo a lógica previamente programada. Para o mecanismo de movimentação, utilizamos fios de nylon e suportes de cortina, garantindo leveza e eficiência no deslocamento do toldo.
+
 <p align="center">
   <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Fluxograma%201%20PI.png?raw=true" width="900"/>
 </p>
@@ -11,6 +15,11 @@
 <p align="center">
   <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Fluxograma%201%20PI.png?raw=true" width="900"/>
 </p>
+
+Vídeo do funcionamento da estrutura:
+
+https://github.com/user-attachments/assets/b34ca1ce-5c0e-422d-8bd2-1a5cf35b076a
+
 
 
 ## Integração da parte eletrônica
