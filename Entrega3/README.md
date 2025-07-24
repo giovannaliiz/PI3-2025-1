@@ -47,36 +47,41 @@ https://github.com/user-attachments/assets/773221c3-16fb-4270-a398-a2c1a77053a4
 
 ## Design 3D Case
 <p align="center">
-  <img src="imagens/casefrente.jpeg" width="400"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/casefrente.jpeg?raw=true" width="700"/>
 </p>
 
-<p align="center">
-  <img src="imagens/caseinferior.jpeg" width="400"/>
-</p>
 
 <p align="center">
-  <img src="imagens/casesolida.jpeg" width="400"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/caseinferior.jpeg?raw=true" width="700"/>
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/casesolida.jpeg?raw=true" width="700"/>
+</p>
+
 
 A case do varal foi modelada no Tinkercad. Ela tem três furos verticais em cada lateral, totalizando seis furos para a passagem dos fios e cabos necessários. Também foram incluídos os encaixes para os parafusos que fixam a tampa. Por fim, foi adicionada uma imagem da case real que será usada no nosso projeto.
 
 ## Design 3D da estrutura mecânica
 
 <p align="center">
-  <img src="imagens/varal_lateral.jpeg" width="400"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/varal_lateral.jpeg?raw=true" width="700"/>
 </p>
 
 
 <p align="center">
-  <img src="imagens/varal_traseira.jpeg" width="400"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/varal_traseira.jpeg?raw=true" width="700"/>
 </p>
+
 
 O design 3D do varal foi desenvolvido no Tinkercad. Ele conta com uma base fixa que sustenta uma haste vertical, onde o varal está montado. Na imagem, a cortina aparece na posição fechada.
 Na parte traseira da haste estão fixados o motor 1 e o motor 2, responsáveis por abrir e fechar a cortina lateralmente quando acionados. A case do sistema está parafusada na parte de trás da haste, e sobre ela foi adicionado um triângulo de apoio, levemente inclinado, que serve como suporte para o sensor de chuva.
 
 <p align="center">
-  <img src="imagens/varal_prototipo1.jpeg" width="400"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/varal_prototipo1.jpeg?raw=true" width="700"/>
 </p>
+
 
 Por fim, temos um protótipo da estrutura mecânica que está na fase inicial de montagem.
 
