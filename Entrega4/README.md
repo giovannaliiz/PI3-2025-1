@@ -24,7 +24,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/case_final_2.jpeg" width="900"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/case_final_2.jpeg" width="400"/>
 </p>
 
 
