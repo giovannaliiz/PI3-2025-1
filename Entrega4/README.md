@@ -14,9 +14,21 @@
 
 
 ## Integração da parte eletrônica
-<p align="center">
-  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Fluxograma%201%20PI.png?raw=true" width="900"/>
-</p>
+Este projeto utiliza um microcontrolador ESP32 programado com o framework ESP-IDF no Visual Studio Code. A arquitetura foi desenvolvida de forma modular, permitindo a integração progressiva de periféricos adicionais, como:
+
+Sensor de chuva (GPIO)
+
+Acelerômetro MPU6050 (I2C) para detecção de tombamento
+
+Sensor de tensão (ADC)
+
+A funcionalidade principal consiste no controle automatizado de uma cortina, que se fecha automaticamente ao detectar chuva e se reabre após um período sem precipitação. Durante o fechamento, um ventilador e um motor PTC são acionados com um atraso de dois segundos. Ambos são desligados quando a cortina é reaberta.
+
+O projeto também conta com conectividade Wi-Fi e integração com a plataforma Blynk, permitindo o monitoramento remoto do estado dos sensores e atuadores. A fase de depuração foi realizada por meio da análise dos logs do terminal, com foco na otimização da lógica de controle e no ajuste do funcionamento dos relés e demais dispositivos conectados ao hardware.
+
+
+> Para acessar o código-fonte principal, [clique aqui](https://github.com/giovannaliiz/PI3-2025-1/blob/main/main.c).
+
 
 
 ## Integração da parte eletrônica + mecânica
