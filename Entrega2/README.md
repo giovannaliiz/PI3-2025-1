@@ -3,8 +3,9 @@
 ## Fluxograma do comportamento do sistema
 
 <p align="center">
-  <img src="imagens/Fluxograma_2.jpg" width="550"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Fluxograma_2.jpg?raw=true" width="900"/>
 </p>
+
 
 ## Testes iniciais dos sensores
 
@@ -27,12 +28,14 @@ https://github.com/user-attachments/assets/b8497144-41e5-45c0-88ff-a969a148b5c5
 Após a validação individual de cada sensor, iniciou-se a fase de programação integrada do projeto. Nesta etapa, os sensores de chuva e o acelerômetro foram conectados simultaneamente ao ESP32, com a montagem realizada em uma protoboard, conforme mostrado na imagem abaixo. O objetivo foi desenvolver a lógica inicial de detecção de eventos relevantes: chuva e possível queda ou tombamento do varal.
 
 <p align="center">
-  <img src="imagens/vista_de_frente.jpeg" width="600"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/vista_de_frente.jpeg?raw=true" width="700"/>
 </p>
 
+
 <p align="center">
-  <img src="imagens/vista_de_cima.jpeg" width="600"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/vista_de_cima.jpeg?raw=true" width="700"/>
 </p>
+
 
  A partir das leituras dos sensores, mensagens de alerta são exibidas no monitor serial indicando a presença de chuva ou alterações nos ângulos de inclinação que sugerem instabilidade do varal. 
 
@@ -41,15 +44,17 @@ Com os sensores de chuva e de inclinação já integrados e funcionando conforme
 
  
 <p align="center">
-  <img src="imagens/Imagem_serial.jpeg" width="600"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Imagem_serial.jpeg?raw=true" width="700"/>
 </p>
 
-<p align="center">
-  <img src="imagens/integracao_foto.jpeg" width="600"/>
-</p>
 
 <p align="center">
-  <img src="imagens/integracao_teste.jpeg" width="600"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/integracao_foto.jpeg?raw=true" width="700"/>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/integracao_teste.jpeg?raw=true" width="700"/>
 </p>
 
 
@@ -61,12 +66,14 @@ Foi desenvolvido um protótipo da interface de comunicação com o usuário util
 ### Blynk Web Dashboard
 
 <p align="center">
-  <img src="imagens/BlynkWeb.png" width="550"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/BlynkWeb.png?raw=true" width="700"/>
 </p>
+
 
 ### Blink Mobile Dashboard
 
 <p align="center">
-  <img src="imagens/BlynkMob.png" width="250"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/BlynkMob.png?raw=true" width="400"/>
 </p>
+
 
