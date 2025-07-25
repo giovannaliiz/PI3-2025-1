@@ -7,19 +7,20 @@ O varal foi desenvolvido a partir do reaproveitamento de estruturas já existent
 A abertura e o fechamento do varal são controlados pelo ESP32, seguindo a lógica previamente programada. Para o mecanismo de movimentação, utilizamos fios de nylon e suportes de cortina, garantindo leveza e eficiência no deslocamento do toldo.
 
 <p align="center">
-  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Fluxograma%201%20PI.png?raw=true" width="900"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/varal_lateral.jpeg?raw=true" width="500"/>
 </p>
+
 <p align="center">
-  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Fluxograma%201%20PI.png?raw=true" width="900"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/varal.jpeg?raw=true" width="500"/>
 </p>
+
 <p align="center">
-  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/Fluxograma%201%20PI.png?raw=true" width="900"/>
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/varal_toalha.jpeg?raw=true" width="500"/>
 </p>
 
 Vídeo do funcionamento da estrutura:
 
-https://github.com/user-attachments/assets/b34ca1ce-5c0e-422d-8bd2-1a5cf35b076a
-
+https://github.com/user-attachments/assets/558d8165-9627-459b-863c-1a679fcd9187
 
 
 ## Integração da parte eletrônica
@@ -61,6 +62,14 @@ Foram utilizadas duas cases no projeto, ambas fixadas na estrutura do protótipo
 
 <p align="center">
   <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/case_final_3.jpeg" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/case_frontal.jpeg?raw=true" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/case_superior.jpeg?raw=true" width="500"/>
 </p>
 
 Para a realização da placa de circuito impresso, foram utilizados o KiCad para o desenvolvimento e o almoxarifado do IFSC para a produção. O esquemático foi cuidadosamente projetado para integrar um microcontrolador ESP32 com sensores de chuva e acelerômetro, com capacidade de atuação via relé. Ele utiliza fontes separadas de tensões diferentes, sendo o módulo MB102 incorporado para converter a tensão de entrada, fornecendo 3.3V para o ESP e os sensores, e 5V para os módulos dos relés. Adicionalmente, o esquemático incluiu uma entrada dedicada para a bateria que alimenta o motor do aquecedor. O layout da PCB foi cuidadosamente planejado para garantir uma montagem prática e funcional
