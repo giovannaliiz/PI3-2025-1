@@ -43,7 +43,7 @@ O projeto também conta com conectividade Wi-Fi e integração com a plataforma 
 
 ## Integração da parte eletrônica + mecânica
 
-
+A integração entre a parte eletrônica e a estrutura mecânica foi realizada com sucesso, assim como em bancada, mantendo a funcionalidade e a organização dos componentes, além de garantir proteção e facilidade na manutenção do sistema.
 
 <p align="center">
   <img src="https://github.com/giovannaliiz/PI3-2025-1/blob/main/imagens/case_final_2.jpeg" width="400"/>
